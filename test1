@@ -1,0 +1,33 @@
+//console.log("hello,world");
+//console.log(global);
+//console.log(__dirname);
+//console.log(__filename);
+//console.info("info");
+//console.error("error");
+//console.warn('warn');
+//console.time("test");
+//for(var i=0;i<1000000;i++){
+//
+//}
+//console.timeEnd("test");
+//process.stdout.write('stdout');
+////process.stderr.write('stderr');
+//process.stdin.setEncoding('utf-8');
+//process.stdin.on('data',function(data){
+//    console.log(data);
+//});
+//process.stdin.on('readable',function(){
+//    var data = process.stdin.read();
+//    console.log(data);
+//});
+//console.log(process.cwd());
+//process.cwd();是我们执行文件时我们所在的文件夹，而__filename是文件真实执行时的文件夹；cwd是current
+//work direction
+//process.on('exit',function(){
+//    console.log('the programe will exit');
+//});
+//process.on('SIGINT',function(){
+//    console.log('the program will sigint');
+//    process.exit();
+//});
+console.log(process.argv);

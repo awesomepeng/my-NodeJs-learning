@@ -1,0 +1,5 @@
+E:\test
+E:\test\test1
+info
+error
+warn
